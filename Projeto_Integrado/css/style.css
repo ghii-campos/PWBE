@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/Group\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    min-height: 700px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.icone-pizza img {
+    height: 85px;
+    margin-top: 20px;
+}
+
+.icone-pizza h2 {
+    color: white;
+    float: right;
+    margin-right: 880px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textos{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.textos h1 {
+    margin-top: 200px;
+}
+
+.textos h3{
+    width: 800px;
+}
+
+.botao button{
+    border-radius: 15px 15px 15px 15px;
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+    
+}
+

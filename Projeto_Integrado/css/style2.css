@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    background-image: url('../img/Group\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icone-pizza img {
+    height: 85px;
+    margin-top: 20px;
+}
+
+
+
+.textos{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.textos h1 {
+    margin-top: 50px;
+}
+
+.textos h3{
+    margin-left: 200px;
+    width: 700px;
+}
+
+.icone-pizza h2 {
+    color: white;
+    float: right;
+    margin-right: 880px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login{
+    width: 400px;
+    margin:  30px auto 0 auto;
+    display: block;
+    color: #fff;
+}
+
+
+.login input{
+
+    display: block;
+    margin: 20px;
+}
+
+.login input[type=text] {
+    font-size: 25px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 30px;
+    color: white;
+    border: none;
+    display: block;
+    background: transparent;
+}
+.login input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+
+.login input[type=password] {
+    font-size: 25px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 30px;
+    color: white;
+    border: none;
+    display: block;
+    background: transparent;
+}
+
+.botao button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.botao{
+    text-align: center;
+}
+
+.texto-fim h3{
+    color: white;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.icone-email{
+
+    margin-top: 5px;
+    margin-left: 300px;
+}
+
+
+.icone-senha{
+
+    margin-top: 5px;
+    margin-left: 300px;
+    
+}
+
+
