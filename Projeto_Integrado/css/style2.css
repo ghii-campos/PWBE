@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('../img/Group\ 5.png');
+    background-image: url('../img/Group\ 12\ \(1\).png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,21 +21,33 @@ body {
     margin-top: 20px;
 }
 
+.bloco {
+    width: 650px;
+    height: 550px;
+    padding-top: 40px;
+    border-radius: 50px;
+    background: rgba(166, 137, 110, 0.50);
+    backdrop-filter: blur(59.5px);
+    margin-left: 200px;
+}
 
-
-.textos{
+.textos {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
+
 }
 
 .textos h1 {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-.textos h3{
-    margin-left: 200px;
-    width: 700px;
+.textos h3 {
+    margin-left: 55px;
+    width: 500px;
+    margin-top: 40px;
+    padding-left: 50px;
+
 }
 
 .icone-pizza h2 {
@@ -46,15 +58,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.login{
+.login {
     width: 400px;
-    margin:  30px auto 0 auto;
     display: block;
     color: #fff;
+    bottom: 40px;
+    position: relative;
+    margin-left: 50px;
 }
 
 
-.login input{
+.login input {
 
     display: block;
     margin: 20px;
@@ -68,8 +82,11 @@ body {
     border: none;
     display: block;
     background: transparent;
+
+
 }
-.login input::placeholder{
+
+.login input::placeholder {
     color: white;
     opacity: 1;
 }
@@ -85,34 +102,60 @@ body {
     background: transparent;
 }
 
-.botao button{
+.botao button {
     width: 200px;
     height: 50px;
     border-radius: 15px 15px 15px 15px;
+    margin-left: 160px;
+    bottom: 60px;
+    position: relative;
+    border: none;
+    font-weight: bold;
+    color: rgba(50, 25, 1, 0.5);
 }
 
-.botao{
+.botao {
     text-align: center;
 }
 
-.texto-fim h3{
+.texto-fim h3 {
     color: white;
-    margin-left: 700px;
-    margin-top: 30px;
-}
-
-.icone-email{
-
+    font-family: 'Poppins', sans-serif;
+    margin-left: 255px;
+    position: relative;
+    bottom: 70px;
+    width: 200px;
     margin-top: 5px;
-    margin-left: 300px;
-}
-
-
-.icone-senha{
-
-    margin-top: 5px;
-    margin-left: 300px;
     
 }
 
+.icone-email {
+
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.icone-email img {
+    position: relative;
+    margin-right: 30px;
+    width: 50px;
+    height: 25px;
+    top: 50px;
+}
+.icone-senha {
+    margin-top: 5px;
+    margin-left: 100px;
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+
+.icone-senha img {
+    position: relative;
+    margin-right: 30px;
+    width: 50px;
+    height: 25px;
+    top: 50px;
+}
 

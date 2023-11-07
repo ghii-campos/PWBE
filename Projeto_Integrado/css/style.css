@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../img/Group\ 5.png');
+    background-image: url('../img/Group\ 12\ \(1\).png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -52,6 +52,7 @@ header {
     height: 60px;
     width: 300px;
     margin-top: 50px;
-    
+    border: 0px;
+    color: rgba(50, 25, 1, 0.5);
 }
 

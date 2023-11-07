@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.imagens-pizzas img{
+
+    width: 250px;
+    height: 140px;
+    margin-top: 400px;
+    margin-right: 30px; 
+}
+
+body {
+    background-image: url('../img/Design\ sem\ nome\ \(8\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
