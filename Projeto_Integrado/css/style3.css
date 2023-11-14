@@ -4,17 +4,141 @@
     box-sizing: border-box;
 }
 
-
-.imagens-pizzas img{
-
-    width: 250px;
-    height: 140px;
-    margin-top: 400px;
-    margin-right: 30px; 
+body {
+    background-image: url('../img/isso\ 1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
-body {
-    background-image: url('../img/Design\ sem\ nome\ \(8\).png');
-    background-size: cover;
+
+.imagens-pizzas img {
+    width: 220px;
+    height: 140px;
+    margin-left: 50px;
+    border-radius: 8px 8px 8px 8px;
+    position: relative;
+    left: 100px;
+    margin-top: 350px;
+
+}
+
+.imagem img {
+    width: 220px;
+    height: 140px;
+    margin-left: 50px;
+    border-radius: 8px 8px 8px 8px;
+    position: relative;
+    left: 100px;
+    margin-top: 90px;
+}
+
+header {
+    min-height: 700px;
+}
+
+.menu-lateral {
+    background-color: rgba(168, 136, 106, 0.5);
+    width: 110px;
+    height: 100vh;
+    position: fixed;
+    display: block;
+}
+
+.barra input[type="email"]:focus {
+    outline: 0;
+}
+
+.barra input[type="email"] {
+    width: 300px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgba(168, 136, 106, 0.5);
+    border: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: 'Ysabeau SC', sans-serif;
+    position: relative;
+    bottom: 700px;
+    margin-left: 150px;
+}
+
+.barra input[type="email"]::placeholder {
+
+    color: white;
+}
+
+.pesquisa {
+
+    background: url(../img/pesquisa.png);
     background-repeat: no-repeat;
+    background-position: 260px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.imagem-menu img {
+    width: 35px;
+    margin-left: 35px;
+    display: block;
+    position: relative;
+    margin-bottom: 200px;
+    bottom: 670px;
+}
+
+.perfil img {
+    position: relative;
+    margin-left: 600px;
+    bottom: 1445px;
+}
+
+.texto h1 {
+    color: white;
+    margin-left: 700px;
+    position: relative;
+    bottom: 1495px;
+}
+
+.texto h3 {
+    color: white;
+    margin-left: 740px;
+    position: relative;
+    bottom: 1495px;
+}
+
+
+
+.icones h1 {
+    margin-left: 200px;
+    position: relative;
+    bottom: 1480px;
+    color: white;
+}
+
+.icones img {
+    position: relative;
+    bottom: 1470px;
+    margin-left: 220px;
+}
+
+.texto1 h3 {
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    bottom: 1540px;
+}
+
+.texto2 h3 {
+    color: white;
+    margin-left: 22px;
+    position: relative;
+    bottom: 1330px;
+}
+
+.texto3 h3 {
+    color: white;
+    margin-left: 7px;
+    position: relative;
+    bottom: 1120px;
 }
