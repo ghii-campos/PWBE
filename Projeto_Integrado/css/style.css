@@ -34,6 +34,10 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.icone-pizza{
+    display: flex;
+}
+
 .textos{
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -54,5 +58,28 @@ header {
     margin-top: 50px;
     border: 0px;
     color: rgba(50, 25, 1, 0.5);
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        margin: 0 0;
+        
+    }
+
+    .textos h1{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .textos h3 {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    
+    .botao button {
+        margin-left: 100px;
+    }
 }
 

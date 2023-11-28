@@ -26,7 +26,7 @@ body {
     height: 550px;
     padding-top: 40px;
     border-radius: 50px;
-    background: rgba(166, 137, 110, 0.50);
+    background: rgba(238, 237, 237, 0.2);
     backdrop-filter: blur(59.5px);
     margin-left: 200px;
 }
@@ -35,19 +35,18 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-
+    margin-left: 110px;
 }
 
 .textos h1 {
+    margin-right: 90px;
     margin-top: 20px;
 }
 
 .textos h3 {
-    margin-left: 55px;
-    width: 500px;
+    width: 380px;
     margin-top: 40px;
     padding-left: 50px;
-
 }
 
 .icone-pizza h2 {
@@ -64,7 +63,7 @@ body {
     color: #fff;
     bottom: 40px;
     position: relative;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 
@@ -111,22 +110,36 @@ body {
     position: relative;
     border: none;
     font-weight: bold;
-    color: rgba(50, 25, 1, 0.5);
+    color: rgba(50, 25, 1, 0.8);
 }
 
 .botao {
     text-align: center;
 }
 
-.texto-fim h3 {
+.texto-fim h5 {
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-left: 255px;
+    margin-left: 250px;
     position: relative;
     bottom: 70px;
     width: 200px;
     margin-top: 5px;
-    
+}
+
+
+
+.texto-fim2 h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 280px;
+    position: relative;
+    bottom: 65px;
+    width: 200px;
+    margin-top: 5px;
+}
+.texto-fim2 a {
+    text-decoration: none;
 }
 
 .icone-email {
@@ -157,5 +170,48 @@ body {
     width: 50px;
     height: 25px;
     top: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 600px;
+        min-height: 1000px;
+    }
+    .textos h1 {
+        width: 300px;
+        position: relative;
+        right: 50px;
+    }
+
+    .textos h3{
+        margin-left: -120px;
+    }
+
+    .bloco {
+        margin-left: 5px;
+        height: 700px;
+        width: 430px;
+        margin-right: 50px;
+    }
+
+    .icone-pizza img{
+        height: 40px;
+    }
+
+    .login{
+        margin-left: -40px;
+    }
+
+    .botao button {
+        margin-left: 110px;
+    }
+
+    .texto-fim h5 {
+        margin-left: 130px;
+    }
+
+    .texto-fim2 h3 {
+        margin-left: 160px;
+    }
 }
 

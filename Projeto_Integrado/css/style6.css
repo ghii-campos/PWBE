@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    background-image: url('../img/9a54be7c-c26b-4b81-af52-eb6ba48e2e00.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icone-pizza img {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.bloco {
+    width: 650px;
+    height: 550px;
+    padding-top: 40px;
+    border-radius: 50px;
+    background: rgba(238, 237, 237, 0.2);
+    backdrop-filter: blur(59.5px);
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.icone-pizza h2 {
+    color: white;
+    float: right;
+    margin-right: 960px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -5px;
+    bottom: -120px;
+    position: relative;
+    border: none;
+    font-weight: bold;
+    color: rgba(50, 25, 1, 0.5);
+}
+
+.botao {
+    text-align: center;
+}
+
+.imagem-cam img {
+    position: relative;
+    bottom: 600px;
+    margin-left: 480px;
+    height: 100px;
+}
+
+.comentario {
+    margin-left: 185px;
+    width: 300px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(29, 27, 27, 0.5);
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.comentario img {
+    margin-top: 14px;
+    margin-left: 10px
+}
+
+.comentario h3 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 80px;
+}
+
+.comentario h4 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 80px;
+}
+
+.comentario2 {
+    margin-left: 185px;
+    width: 300px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(29, 27, 27, 0.5);
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.comentario2 img {
+    margin-top: 14px;
+    margin-left: 10px
+}
+
+.comentario2 h3 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 80px;
+}
+
+.comentario2 h4 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 80px;
+}
+
+.comentario3 {
+    margin-left: 185px;
+    width: 300px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(29, 27, 27, 0.5);
+    position: relative;
+    bottom: -50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.comentario3 img {
+    margin-top: 14px;
+    margin-left: 10px
+}
+
+
+.comentario3 h3 {
+    position: relative;
+    bottom: 60px;
+    margin-left: 80px;
+}
+
+.comentario3 h4 {
+    position: relative;
+    bottom: 60px;
+    margin-left: 80px;
+}
+
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 600px;
+        min-height: 1000px;
+    }
+
+    .bloco {
+        margin-left: 5px;
+        height: 700px;
+        width: 430px;
+        margin-right: 50px;
+    }
+
+    .icone-pizza img{
+        height: 40px;
+    }
+
+    .login{
+        margin-left: -40px;
+    }
+
+    .botao button {
+        margin-left: -5px;
+    }
+
+    .comentario {
+        margin-left: 70px;
+    }
+
+    .comentario2{
+        margin-left: 70px;
+    }
+
+    .comentario3{
+        margin-left: 70px;
+    }
+
+    .imagem-cam img{
+        position: relative;
+        bottom: 750px;
+        margin-left: 170px;
+    }
+
+    
+}

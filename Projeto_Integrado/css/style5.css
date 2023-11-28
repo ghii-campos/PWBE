@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    background-image: url('../img/9a54be7c-c26b-4b81-af52-eb6ba48e2e00.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icone-pizza img {
+    height: 50px;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+
+.bloco {
+    width: 650px;
+    height: 550px;
+    padding-top: 40px;
+    border-radius: 50px;
+    background: rgba(238, 237, 237, 0.2);
+    backdrop-filter: blur(59.5px);
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+.textos {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.textos h1 {
+    margin-top: 0px;
+}
+
+.icone-pizza h2 {
+    color: white;
+    float: right;
+    margin-right: 960px;
+    margin-top: -43px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.botao button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -5px;
+    bottom: -20px;
+    position: relative;
+    border: none;
+    font-weight: bold;
+    color: rgb(178, 174, 170);
+}
+
+.botao {
+    text-align: center;
+}
+
+
+.icone-usuario {
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 240px;
+    display: flex;
+}
+
+.icone-email {
+    margin-top: 40px;
+    margin-left: 240px;
+    display: flex;
+}
+
+.icone-senha {
+    margin-top: 90px;
+    margin-left: 240px;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+.icone-senha2 {
+    margin-top: 80px;
+    margin-left: 240px;
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+
+.icone-telefone {
+    margin-top: -10px;
+    margin-left: 240px;
+    display: flex;
+}
+
+.imagem-cam img {
+    position: relative;
+    bottom: 600px;
+    margin-left: 505px;
+    height: 100px;
+}
+
+.inputs input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    margin-top: 17px;
+}
+
+.inputs input::placeholder {
+    color: #fff;
+} 
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 600px;
+        min-height: 1000px;
+    }
+    .textos h1 {
+        width: 300px;
+        position: relative;
+        right: -70px;
+    }
+
+    .textos h3{
+        margin-left: -120px;
+    }
+
+    .bloco {
+        margin-left: 5px;
+        height: 700px;
+        width: 430px;
+        margin-right: 50px;
+    }
+
+    .icone-pizza img{
+        height: 40px;
+    }
+
+    .login{
+        margin-left: -40px;
+    }
+
+    .botao button {
+        margin-left: -10px;
+    }
+
+    .inputs{
+        margin-left: -110px;
+    }
+}

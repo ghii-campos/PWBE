@@ -5,19 +5,23 @@
 }
 
 body {
-    background-color: rgb(208, 191, 175);
-    background-size: contain;
+    background-image: url('../img/isso\ 1.svg');
+    background-size: cover;
     background-repeat: no-repeat;
     overflow-y: hidden;
+}
+.cards{
+    display: flex;
+    
 }
 
 .espaco {
     margin-top: 120px;
     display: inline-flex;
-    width: 33%;
+    /* width: 33%; */
     padding: 25px;
     width: 380px;
-    height: 500px;
+    height: 460px;
 }
 
 .espaco p {
@@ -36,35 +40,135 @@ body {
     border-radius: 20px;
 }
 
+.box-completo img {
+    margin-right: 15px;
+    border-radius: 20px 20px 20px 20px;
+    height: 150px;
+    margin-top: 10px;
+}
+
 
 .box-completo {
-
     border-radius: 3px;
-    height: 100%;
-    box-shadow: 0 8px 20px rgba(110, 109, 109, 0.8);
+    height: 150%;
+    position: relative;
+    bottom: 110px;
     padding: 5px;
-    background-color: #ffd2b3;
+    border-radius: 50px;
+    background: rgba(238, 237, 237, 0.2);
+    backdrop-filter: blur(59.5px);
 }
 
 .box-completo p{
-
-    font-family: 'Ysabeau SC', sans-serif; 
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 90px;
 }
 
 .box-completo h2{
-
-    font-family: 'Ysabeau SC', sans-serif; 
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 
 .box-completo a{
-
-    border-color: rgba(114, 102, 112, 0.824);
-    font-family: 'Ysabeau SC', sans-serif; 
+    border-color: rgba(255, 255, 255, 0.824);
     font-weight: bold;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: #000;
 }
 
-.box-completo h2{
 
-    color: rgba(114, 102, 112, 0.824);
+.box-completo img {
+    margin-left: 15px;
+    border-radius: 20px 20px 20px 20px;
+    height: 190px;
+    margin-top: 10px;
 }
 
+.comentario {
+    margin-left: 43px;
+    width: 230px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(29, 27, 27, 0.5);
+    position: relative;
+    bottom: -50px;
+    color: white;
+}
+
+.comentario2 {
+    margin-left: 43px;
+    width: 230px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(29, 27, 27, 0.5);
+    margin-top: 100px;
+    color: #fff;
+}
+
+.comentario img {
+    height: 40px;
+}
+
+.comentario h3{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+.comentario h6{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.comentario h5{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+.comentario2 img {
+    height: 40px;
+}
+
+.comentario2 h3{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+.comentario2 h6{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.comentario2 h5{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+.voltar h1{
+    height: 50px;
+    margin-left: 715px;
+    color: #fff;
+    position: absolute;
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-y: auto;
+    }
+    .container {
+        max-width: 600px;
+        min-height: 1000px;
+    }
+
+    .boxinho2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        display: inline-block;
+    }
+    .espaco{
+        margin-top: 170px;
+    }
+}
